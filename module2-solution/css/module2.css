@@ -7,7 +7,7 @@ body {
 }
 
 p {
-	padding: 3px;
+	padding: 5px;
 	font-family: sans-serif;
 }
 
@@ -17,16 +17,14 @@ p {
 	text-align: center;
 }
 
-.categoryBox {
-}
-
 .titleBox {
 	float: right;
-	top: 5px;
-	right: 5px;
+	top: 0px;
+	right: 0px;
 	padding: 3px;
 	width: 25%;
-	border: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	text-align: center;
 	font-size: 125%;
 }
@@ -34,6 +32,7 @@ p {
 .content {
 	width: 100%;
 	clear: right;
+	padding: 5px;
 }
 
 .colour1 {
@@ -47,35 +46,30 @@ p {
 .colour3 {
 	background-color: #ffdead;
 }
+
 @media (min-width: 992px) {
 	.lg_33, .innerBox2, .innerBox3 {
 		float: left;
 		margin: 1%;
 		background-color: lightgray;
+		border: 1px solid black;
 	}
 
    	.lg_33 {
 		width: 31%;
-	border: 1px solid black;
-	}
-	.innerBox2 {
-		width: 67%;
-	}
-	.innerBox3 {
-		width: 100%;
 	}
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.med_50, .med_100 {
 		float: left;
 		margin: 1%;
 		background-color: lightgray;
+		border: 1px solid black;
 	}
 
 	.med_50 {
 		width: 48%;
-	border: 1px solid black;
 	}
 	.med_100 {
 		width: 98%;
@@ -87,6 +81,7 @@ p {
 		float: left;
 		margin: 1%;
 		background-color: lightgray;
+		border: 1px solid black;
 	}
 	.small_100 {
 		width: 98%;
