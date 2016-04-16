@@ -1,0 +1,27 @@
+body {
+	background-color: white;
+}
+
+.navbar-header {
+
+}
+
+.nav-box {
+	background-color: #A9E2F3;
+}
+.content-box {
+	background-color: #F3F781;
+	margin-top: 20px;
+}
+
+.category-item {
+	border-top: 4px solid black;
+}
+
+.navbar-box {
+		border-bottom: 4px solid black;
+		border-top: 4px solid black;
+}
+
+.food-titlebox {
+}
